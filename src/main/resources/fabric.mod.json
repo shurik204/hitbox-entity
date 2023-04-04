@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "hitbox-entity",
+	"version": "${version}",
+	"name": "Hitbox Entity",
+	"description": "Hello there!",
+	"authors": [
+		"shurik204"
+	],
+	"contact": {
+		"homepage": "https://shurik.me/"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/hitbox-entity/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.shurik.hitboxentity.HitboxEntityMod"
+		]
+	},
+	"accessWidener" : "hitbox-entity.accesswidener",
+	"mixins": [
+		"hitbox-entity.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.17",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+	}
+}
